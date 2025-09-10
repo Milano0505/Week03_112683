@@ -1,5 +1,4 @@
 package week03.milano.id.ac.umn;
-
 import java.util.Scanner;
 
 public class Tugas2 {
@@ -131,9 +130,7 @@ public class Tugas2 {
                 default:
                     System.out.println("Pilihan tidak valid!");
             }
-
         } while (pilihan != 0);
-
         sc.close();
     }
 }
