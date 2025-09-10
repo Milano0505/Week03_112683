@@ -14,7 +14,6 @@ Tugas 1
 
 	System.out.println(matrix[1][2]); // Output: 6
 
-
 2. Sebutkan dan jelaskan 13 method-method string dalam Java
 
 	Berikut adalah beberapa method penting dalam kelas String:
@@ -31,7 +30,6 @@ Tugas 1
 	11. trim()         : Menghapus spasi di awal dan akhir string.
 	12. equals(String) : Membandingkan isi string dengan string lain (case-sensitive).
 	13. equalsIgnoreCase(String) : Membandingkan isi string dengan mengabaikan besar-kecil huruf.
-
 
 3. Sebutkan 2 keuntungan Immutability dalam Java.
 	1. Keamanan (Security): Karena string tidak dapat diubah, maka data string lebih aman digunakan
