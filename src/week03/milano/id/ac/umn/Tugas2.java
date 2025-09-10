@@ -1,4 +1,5 @@
 package week03.milano.id.ac.umn;
+
 import java.util.Scanner;
 
 public class Tugas2 {
