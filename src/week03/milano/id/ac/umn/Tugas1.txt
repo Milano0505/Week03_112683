@@ -1,0 +1,40 @@
+Tugas 1
+
+1. Jelaskan multidimensional arrays dan berikan contoh.
+
+	Multidimensional array adalah array yang memiliki lebih dari satu dimensi atau indeks.
+	Biasanya digunakan untuk merepresentasikan data dalam bentuk tabel, matriks, atau grid.
+	Contoh penggunaan array dua dimensi (2D array) dalam Java:
+
+	int[][] matrix = {
+	    {1, 2, 3},
+	    {4, 5, 6},
+	    {7, 8, 9}
+	};
+
+	System.out.println(matrix[1][2]); // Output: 6
+
+
+2. Sebutkan dan jelaskan 13 method-method string dalam Java
+
+	Berikut adalah beberapa method penting dalam kelas String:
+	1. length()        : Mengembalikan panjang string.
+	2. charAt(int)     : Mengambil karakter pada posisi indeks tertentu.
+	3. substring(int)  : Mengambil substring mulai dari indeks tertentu hingga akhir.
+	4. substring(int,int) : Mengambil substring dari indeks awal hingga sebelum indeks akhir.
+	5. contains(String): Mengecek apakah string mengandung substring tertentu (boolean).
+	6. concat(String)  : Menggabungkan string dengan string lain.
+	7. replace(old,new): Mengganti karakter/substring lama dengan yang baru.
+	8. split(String)   : Memecah string menjadi array dengan delimiter tertentu.
+	9. toLowerCase()   : Mengubah string menjadi huruf kecil semua.
+	10. toUpperCase()  : Mengubah string menjadi huruf besar semua.
+	11. trim()         : Menghapus spasi di awal dan akhir string.
+	12. equals(String) : Membandingkan isi string dengan string lain (case-sensitive).
+	13. equalsIgnoreCase(String) : Membandingkan isi string dengan mengabaikan besar-kecil huruf.
+
+
+3. Sebutkan 2 keuntungan Immutability dalam Java.
+	1. Keamanan (Security): Karena string tidak dapat diubah, maka data string lebih aman digunakan
+	   dalam konteks seperti password, koneksi database, atau URL.
+	2. Optimisasi Memory dan Reusability: Java menggunakan String Pool yang memungkinkan reuse objek
+	   string yang sama tanpa membuat objek baru, sehingga menghemat memori.
