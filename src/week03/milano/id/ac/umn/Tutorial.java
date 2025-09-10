@@ -1,9 +1,7 @@
 package week03.milano.id.ac.umn;
-
 import java.util.Scanner;
 
 public class Tutorial {
-
     public static void main(String[] args) {
         int input;
         Scanner scanner = new Scanner(System.in);
@@ -38,11 +36,9 @@ public class Tutorial {
         }
 
     }
-
     public static void show(String[] matkul) {
         for(String eachMatkul : matkul) {
             System.out.println("- " + eachMatkul);
         }
     }
-
 }
