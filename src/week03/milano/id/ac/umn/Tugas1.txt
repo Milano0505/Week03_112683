@@ -11,6 +11,7 @@ Tugas 1
 	    {4, 5, 6},
 	    {7, 8, 9}
 	};
+
 	System.out.println(matrix[1][2]); // Output: 6
 
 2. Sebutkan dan jelaskan 13 method-method string dalam Java
